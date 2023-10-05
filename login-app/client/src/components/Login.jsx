@@ -19,11 +19,11 @@ export const Login = () => {
                     <h1>Vendor</h1>
                 </div>
                 <div className="client-login login-items">
-                    <Link to="/clientusername"></Link> <img src={img2} alt=" 2 desc" />
+                    <Link to="/clientusername"><img src={img2} alt=" 2 desc" /></Link>
                     <h1>Client</h1>
                 </div>
                 <div className="organizer-login login-items">
-                    <Link to="/organizerusername"></Link> <img src={img3} alt=" 3 desc" />
+                    <Link to="/organizerusername"><img src={img3} alt=" 3 desc" /></Link>
                     <h1>Organizer</h1>
                 </div>
             </div>
