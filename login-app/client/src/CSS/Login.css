@@ -1,0 +1,57 @@
+/* Login.css */
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Center content vertically in viewport */
+    margin: 0;
+}
+
+
+
+.image-container {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: max-content;
+    margin-top: 25px;
+    border: 2px pink;
+}
+
+.image-container .login-items {
+    width: max-content;
+    margin: 20px;
+    justify-content: center;
+    border: 1px solid #949393;
+    /* Add a border around each image */
+    border-radius: 5%;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.image-container img {
+    width: auto;
+    /* Calculate image width with 20px gap */
+    height: auto;
+    perspective: 1000px;
+    transition: transform 0.15s;
+    margin: 20px;
+}
+
+.image-container .login-items:hover {
+    transform: rotateY(10deg) scale(1.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.heading {
+    margin-left: 40%;
+    margin-top: -200px;
+    margin-top: -100px;
+
+
+}
